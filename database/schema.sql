@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS internships (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  title TEXT NOT NULL,
+  company TEXT NOT NULL,
+  domain TEXT NOT NULL,
+  location TEXT NOT NULL,
+  work_type TEXT NOT NULL,
+  duration TEXT NOT NULL,
+  stipend INTEGER NOT NULL DEFAULT 0,
+  skills TEXT NOT NULL,
+  description TEXT NOT NULL,
+  eligibility TEXT NOT NULL,
+  deadline TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);

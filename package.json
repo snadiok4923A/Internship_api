@@ -1,0 +1,26 @@
+{
+  "name": "internship-api",
+  "version": "1.0.0",
+  "description": "REST API for managing fictional internship records using Node.js, Express, and SQLite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node database/seed.js"
+  },
+  "keywords": [
+    "internship",
+    "rest-api",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.1.0"
+  }
+}
