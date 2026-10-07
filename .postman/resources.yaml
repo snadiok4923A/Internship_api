@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: d7ade005-5044-4495-8037-a267d42e959d
+
+localResources:
+  collections:
+    - ../examples/Internship API

@@ -1,0 +1,22 @@
+$kind: http-request
+url: http://localhost:3000/api/internships
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Backend Developer Intern",
+      "company": "CodeNova Labs",
+      "domain": "Software Development",
+      "location": "Kolkata",
+      "work_type": "Hybrid",
+      "duration": "4 Months",
+      "stipend": 15000,
+      "skills": ["Node.js", "Express", "SQL"],
+      "description": "Work on backend APIs and database systems for internal business features.",
+      "eligibility": "B.Tech students",
+      "deadline": "2026-12-15"
+    }
+order: 4000
